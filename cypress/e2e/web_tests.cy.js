@@ -1,5 +1,5 @@
 describe('mashin.al', () => {
-  it('should open page mahinal shops in macbook', () => {
+  it('should login user on dev.mashinal', () => {
     cy.viewport('macbook-13')
     cy.visit('https://dev.mashin.al/')
     cy.wait(3000)
